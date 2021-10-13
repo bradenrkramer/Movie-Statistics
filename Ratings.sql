@@ -5,3 +5,6 @@ create table ratings (
 	letterboxdurl varchar(50),
 	rating integer
 )
+
+alter table ratings
+alter column rating type decimal
